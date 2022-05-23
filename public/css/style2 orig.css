@@ -1,0 +1,872 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color: #383633; */
+    background-color: #CCFFFF;
+    /* background:linear-gradient(0deg, #ccffffc7, #ccffffc7), url(img/Van\ Terminal.jfif); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.logo-container{
+    width: 100%;
+    /* background-color: black; */
+    background-color: white;
+    padding: 0 2rem;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+#logo{
+	width: 38px;
+}
+
+.logo-div{
+	display: inline-block;
+	/* color: white; */
+    color: #black;
+}
+
+.nav{
+    float: ;
+}
+
+.logo-div h2{
+    margin-bottom: -13px;
+	margin-top: -13px;    
+    background: -webkit-linear-gradient(blue, #333, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-div h5{
+	color: transparent;
+}
+
+.logo-div button{
+    padding: 0 0;
+	justify-content: right;
+	margin: 0 1px;
+    float: left;
+    height: 32px;
+    width: 80px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 0;
+    /* color: white; */
+    color: black;
+    cursor: pointer;
+}
+
+.logo-div button:hover{
+    /* background-color: rgba(255, 255, 255, 0.219); */
+    background-color: #42707011;
+    border-radius: 1rem;
+    color: black;
+}
+
+#nav1{
+    /* background-color: rgba(255, 255, 255, 0.37); */
+    background-color: #CCFFFF;
+    border-radius: 1rem;
+    color: black;
+}
+
+/*
+#navigation{
+    display: grid;
+    padding: 0 2rem;
+	justify-content: right;
+	margin: 0 auto;
+}*/
+/*
+.container{
+    width: 50vw;
+    height: 100vh;
+    display: grid;
+   	grid-template-columns: repeat(0, 1fr);
+/*    grid-gap : 7rem;
+    padding: 0 2rem;
+	justify-content: center;
+	margin: 0 auto;
+}*/
+
+.container{
+    width: 50rem;
+    height: 70rem;
+    padding: 2rem 5rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+    background-color: white;
+    margin-left: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.emptyPage{
+    width: 95%;
+    height: 70rem;
+    /* padding: 2rem 5rem; */
+    text-align: justify;
+    margin-bottom: 3rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;  
+    text-align: justify;
+}
+
+/*---------------------------------------------Home---------------------------------------------*/
+.big-logo div{
+    color: black;
+}
+
+.ph-color{
+    /*color: #8B8680;*/
+    color: black;
+}
+
+/* Edited for newer version of buttons */
+.option{
+    display: block;
+	/* width: 100%; */
+    width: 100%;
+	/* height: 50px; */
+    height: 100px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	/* background-color: white; */
+    color: black;
+    font-weight: bold;
+    /* background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f); */
+    /* background-image: linear-gradient(to right, #d7cdb0, #38d39f, #d7cdb0); */
+    background-color: #CCFFFF;
+	background-size: 200%;
+	font-size: 11px;
+	/* color: black; */
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .5s;
+    margin-top: 5px;
+}
+
+/* Edited for newer version of buttons */
+.option-inline{
+    display: inline;
+    width: 8.3rem;
+    margin-right: 5px;
+}
+
+/* Edited for newer version of buttons */
+#highlight, #highlight2, #highlight3{
+    display: inline-flex;
+}
+
+.register-logo, .compute-logo{
+    width: 30px;
+}
+
+.logout-logo{
+    width: 30px;
+}
+
+.option:hover{
+    color: white;
+    background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+    background-position: right;
+}
+
+.container-x{
+    width: 27.5%;
+    height: 70rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+    background-color: white;
+    margin-left: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-y{
+    width: 50rem;
+    height: 70rem;
+    padding: 0rem 5rem;
+    /* background-color: rgba(255, 255, 255, 0.24); */
+    /* background: rgba(0,0,0,.75); */
+    overflow: hidden;
+    position: absolute;  
+    text-align: justify;
+}
+/* 
+.content-x{
+    padding: 30% 40%;
+} */
+
+.functions #penones{
+    margin-top: -4rem;
+}
+
+.functions #morales{
+    margin-top: -7rem;
+}
+
+#display{
+    left: 3rem;
+}
+
+.function-content{
+    background-color: white;
+    position:initial;
+	display: flex;
+    height: 32rem;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+    border-radius: 10px;
+    /* margin-top: 3rem; */
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.253);
+}
+
+.btn2{
+	display: block;
+	width: 35%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	/*background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);*/
+    background-image: linear-gradient(to right, black, #38d39f, black);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 32.4%;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn2:hover{
+	background-position: right;
+}
+
+
+
+div h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.placeholder{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+/* .person legend{
+    border: solid black;
+    width: 30rem;
+} */
+
+.input-from{
+    border: transparent;
+    /*border-bottom: solid #32be8f;*/
+    border-bottom: solid black 1px;
+    background-color: transparent;
+    /* width: 35%; */
+    width: 15rem;
+    height: 50px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 1.2rem;
+}
+
+.inline{
+    display: inline-flex;
+}
+
+.input-from:focus, textarea:focus{
+    /*color: #8B8680;*/
+    color: black;
+    outline: none;
+}
+
+.input-from, textarea {
+    /*color: #8B8680;*/
+    color: black;
+}
+
+/* .person2{
+    position: absolute;
+    width: 54rem;
+    transition: .5s;
+}
+
+#penones2{
+    left: 2rem;
+} */
+
+#confirm-register, #confirm-compute{
+    position: absolute;
+    /* width: 50%;
+    height: 30%; */
+    background-color: white;
+    margin: -4rem 20%;
+    display: none;
+    /* transition: 1s ease-out; */
+    justify-content: center;
+    overflow: hidden;
+    padding: 3rem;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 100rem 100rem rgba(0, 0, 0, 0.534);
+}
+
+.confirmation{
+    display: inline;
+	width: 35%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 1%;
+	cursor: pointer;
+	/* transition: .5s; */
+}
+
+.block{
+    width: 20rem;
+}
+/* IMPORTANT DO NOT DELETE */
+#overlay{
+    position: absolute;  
+    width: 58.3rem;
+    height: 70rem;
+    /* width: 100%;
+    height: 100%; */
+    margin: -20rem -2.1rem;
+    background: rgba(0, 0, 0, 0.534);
+    display: hidden;
+}
+/* IMPORTANT DO NOT DELETE */
+#overlay2{
+    position: absolute;  
+    width: 58.3rem;
+    height: 70rem;
+    /* width: 100%;
+    height: 100%; */
+    margin: -20rem -2.1rem;
+    background: rgba(0, 0, 0, 0.534);
+    display: hidden;
+}
+/*---------------------------------------------Home-END---------------------------------------------*/
+
+.center{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;  
+    text-align: justify;
+    padding: 2rem 3.5rem;  
+}
+
+.center-abt{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;  
+    text-align: justify;
+    padding: 2.5rem 3.5rem;  
+}
+
+#containers{
+    display: inline-flex;
+}
+
+.content{
+    margin-bottom: 3rem;
+}
+
+/* .footer{
+    margin: -.5rem;
+    position: absolute;
+    padding: 0 2rem;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.footnote{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0.2rem;
+}
+
+.foot-line{
+    width: 10rem;
+    justify-content: center;
+    display: grid;
+   	grid-template-columns: repeat(0, 1fr);
+/*    grid-gap : 7rem;*/
+    /* padding: 0 2rem;
+    justify-content: center;
+	margin: 0 auto;
+} */ 
+
+.developer{
+    width: 150px;
+    display: inline;
+    padding: 0 1.4rem;
+}
+/*
+#button{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+*/
+.btn{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.person{
+    margin-top: 3%;
+    position: absolute;
+    width: 54rem;
+    transition: .5s;
+}
+
+#oliva{
+    left: 3rem;
+}
+
+#penones{
+    left: 62rem;
+}
+
+#morales{
+    left: 124rem;
+}
+
+#trinidad{
+    left: 186rem;
+}
+
+.dev-logo {
+    width: 65px;
+    height: 65px;
+}
+
+.logo-div2{
+    display: inline-block;
+    /*color: #8B8680;*/
+    color: black;
+}
+
+.logo-div2 h2{
+    font-size: 34px;
+    text-align: center;
+    margin: -10px 5px;
+    background: -webkit-linear-gradient(blue, #333, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-div2 h5{
+    color: transparent;
+}
+
+.logo-div2-h2{
+    display: inline-block;
+    /*color: #8B8680;*/
+    color: black;
+    display: grid;
+   	grid-template-columns: repeat(0, 1fr);
+	justify-content: center;
+}
+
+.logo-div2-h2 h2{
+    font-size: 38px;
+    display: grid;
+   	grid-template-columns: repeat(0, 1fr);
+	justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.description{
+    width: 17rem;
+    /*color: #8B8680;*/
+    color: black;
+    position: absolute;
+    display: block;
+    margin: 1.5rem auto;
+}
+
+#option-bg{
+    margin-top: 1rem;
+}
+
+#option-bg-news{
+    margin-top: 5rem;
+}
+
+#option-bg-news p{
+    text-align: center;
+}
+
+footer{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+hr{
+    /*border-color: #8B8680;*/
+    border-color: #CCFFFF;
+}
+
+.description hr{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+/* 
+.page{
+    width: 62rem;
+    height: 70rem;
+    text-align: justify;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar{
+    position: absolute;
+    width: 50rem;
+    transition: .5s;
+}
+
+#developers{
+
+}
+
+#aboutus{
+    left: 62rem;
+} */
+
+/*------------------------------------CSS Responsiveness------------------------------------*/
+
+@media screen and (max-width: 1050px){
+	html{
+        overflow-x: hidden; 
+    }
+
+    .container{
+        width: 70%;
+        height: 38rem;
+        margin-left: 0;            
+        padding: 2rem 0;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .person{            
+        width: 40rem;
+        font-size: 15px;
+        padding: 1rem 0%;
+    }
+
+    .developer{        
+        width: 100px;
+        padding: 0 15px;
+    }
+    
+    .center{
+        padding: 5% 2%;  
+    }
+            
+    .container2{
+        height: 30rem;
+    }
+
+    .description{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+	html{
+        overflow-x: hidden; 
+    }
+
+    .container{
+        width: 100%;
+        height: 38rem;
+        margin-left: 0;            
+        padding: 2rem 0;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .person{            
+        width: 45rem;
+        font-size: 15px;
+        padding: 1rem 9%;
+    }
+
+    .developer{        
+        width: 150px;
+        padding: 0 15px;
+    }
+    
+    .center{
+        padding: 8% 37%;  
+    }
+            
+    .container2{
+        height: 30rem;
+    }
+
+    #containers{
+        display: flex;
+    }
+
+    .description{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px){
+	html{
+        overflow-x: hidden; 
+    }
+
+    .container{
+        width: 100%;
+        height: 30rem;
+        margin-left: 0;            
+        padding: 2rem 0;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .person{            
+        width: 35rem;
+        font-size: 12px;
+        padding: 1rem 3.5rem;
+    }
+
+    .developer{        
+        width: 120px;
+        padding: 0 15px;
+    }
+    
+    .center{
+        padding: 8% 31.4%;  
+    }
+            
+    .container2{
+        height: 30rem;
+    }
+
+    #containers{
+        display: flex;
+    }
+
+    .description{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    html{
+        overflow-x: hidden; 
+    }
+
+    .container{
+        width: 100%;
+        height: 45rem;
+        margin-left: 0;            
+        padding: 2rem 0;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .person{            
+        width: 18rem;
+        font-size: 12px;
+    }
+
+    .developer{        
+        width: 80px;
+        padding: 0;
+    }
+            
+    .container2{
+        height: 30rem;
+    }
+
+    #containers{
+        display: flex;
+    }
+
+    .description{
+        font-size: 12px;
+    }
+}
+
+.output{
+    width: 95.5%;
+    height: 80%;
+    margin: 1.5rem 2rem;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    border-radius: .5rem;
+    display: block;
+    box-shadow: 0px 0px 100rem 100rem rgba(0, 0, 0, 0.534);
+}
+
+.output-container{
+    width: 30rem;
+    display: grid;
+   	grid-template-columns: repeat(0, 1fr);
+/*    grid-gap : 7rem;*/
+    padding: 3rem 2rem;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+.confirmation-final{
+    display: inline;
+	width: 30%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 1%;
+	cursor: pointer;
+	/* transition: .5s; */
+}
+
+.block-final{
+    width: 30rem;
+}
+
+/*------------------------------------Contacts------------------------------------*/
+.sbs{
+    display: inline-flex;
+}
+
+.basic-info{
+	justify-content: left;
+    text-align: center;
+    margin: 2rem 2rem;
+    margin-left: 4rem;
+    width: 35rem;
+}
+
+.address, .email, .phone{
+    box-shadow: 0 0 20px 15px rgba(31, 29, 29, 0.253);
+    height: 10rem;
+    margin: 10px 10px;
+    padding: 15px;
+}
+
+.address h2, .email h2, .phone h2{
+    color: #8B8680;
+    padding-top: 2rem;
+}
+
+.category{
+    display: inline-flex;
+}
+
+.email, .phone{
+    width: 14.2rem;
+}
+
+.contact-form{
+    width: 35rem;
+    height: 25rem;
+    box-shadow: 0 0 20px 15px rgba(83, 44, 44, 0.253);
+    margin: 2.5rem 0;
+}
+
+.form input{
+    width: 12.2rem;
+    height: 35px;
+    margin: 2rem 0 1rem 2rem;
+    margin-bottom: 0;
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form137 input{
+    display: block;
+    width: 82.5%;
+}
+
+.form137 .message{
+    width: 82.5%;
+    margin: 2rem 0 1rem 2rem;
+    padding: .5rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+}
+
+.form .send-message{
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	font-size: 1.2rem;
+	color: #fff;
+	margin: 0 11rem;
+	cursor: pointer;
+}
